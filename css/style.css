@@ -24,6 +24,7 @@ body{
 }
 .hero-section .content h1{
     font-size: 56px;
+    font-weight: 700;
 }
 .hero-section .content p {
     font-size: 16px;
@@ -41,7 +42,7 @@ row-gap: 10px;
     font-size: 16px;
     text-decoration: none;
     color: white;
-    background-color: #FF136F;
+    background-image: linear-gradient(to left top, #ff589b, #ff4c91, #ff3e86, #ff2d7b, #ff136f);
     padding:10px 30px ;
     border-radius: 5px;
     width: 80px;
@@ -55,4 +56,45 @@ width: 60%;
 .slider-image{
     display: flex;
     justify-content: center;
+}
+
+/* categories */
+.categories{
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    padding: 50px 0;
+}
+.categories h1{
+    margin: 0;
+    font-weight: 600;
+    /* font-size: 25px; */
+}
+.categories-item{
+    display: flex;
+    justify-content: space-between;
+}
+.item{
+    display: flex;
+    align-items: center;
+    padding: 10px 40px;
+    border-radius:10px;
+    column-gap: 100px;
+    color: white;
+}
+.item img{
+    width: 80px;
+}
+.item h1{
+    font-weight: 500;
+}
+#watch {
+    background-image: linear-gradient(to right top, #ff9c35, #ffa92e, #ffb527, #ffc31f, #ffd019);
+   
+}
+#bag{
+    background-image: linear-gradient(to left top, #ff589b, #ff4c91, #ff3e86, #ff2d7b, #ff136f);
+}
+#shoes{
+    background-image: linear-gradient(to left top, #4289ff, #2274ff, #0c5dff, #2240ff, #3f07f8);
 }
