@@ -104,7 +104,16 @@ width: 60%;
     background-image: linear-gradient(to left top, #4289ff, #2274ff, #0c5dff, #2240ff, #3f07f8);
 }
 /* shoes */
-
+.orange-1 span{
+    display: flex;
+justify-content: flex-end;
+}
+#orange {
+    color:#FF9D00 ;
+    font-size: 20px;
+    font-weight: 400px;
+   
+}
 .shoes-div h2{
     font-size: 24px;
     font-weight: 600;
